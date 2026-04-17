@@ -25,16 +25,16 @@ export const theme = createTheme({
     black: '#24292f',
     colors: {
         dark: [
-            '#c9d1d9',
-            '#b1bac4',
-            '#8b949e',
-            '#6e7681',
-            '#484f58',
-            '#30363d',
-            '#21262d',
-            '#161b22',
-            '#0d1117',
-            '#010409'
+            '#f5e6f0', // text
+            '#e4d5df',
+            '#b8a9c4', // text muted
+            '#9a8da6',
+            '#534d66',
+            '#2d2742', // border / bg-hover
+            '#252035', // bg-card
+            '#1a1625', // page bg
+            '#130f1e',
+            '#0a0812'
         ],
 
         blue: [
@@ -84,10 +84,22 @@ export const theme = createTheme({
             '#762c00',
             '#5c2200',
             '#471700'
+        ],
+        pink: [
+            '#fef5f6',
+            '#fce8ea',
+            '#fad8dc',
+            '#f9c9ce',
+            '#f8b8bc',
+            '#f5a0a8', // text-accent
+            '#f38a94',
+            '#f17380',
+            '#ef5d6c',
+            '#ed4758'
         ]
     },
-    primaryShade: 8,
-    primaryColor: 'cyan',
+    primaryShade: { light: 8, dark: 5 },
+    primaryColor: 'pink',
     autoContrast: true,
     luminanceThreshold: 0.3,
     headings: {
