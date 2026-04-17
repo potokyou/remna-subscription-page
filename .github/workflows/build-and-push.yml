@@ -46,8 +46,8 @@ jobs:
           platforms: linux/amd64, linux/arm64
           push: true
           tags: |
-            ghcr.io/remnawave/subscription-page:latest
-            ghcr.io/remnawave/subscription-page:${{github.ref_name}}
+            ghcr.io/potokyou/remna-subscription-page:latest
+            ghcr.io/potokyou/remna-subscription-page:${{github.ref_name}}
 
   notify-on-error:
     runs-on: ubuntu-latest
